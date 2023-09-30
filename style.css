@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #468B97;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #dadada;
+  border-radius: 5rem;
+}
+
+body{
+  background: var(--bg);
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100%vh;
+  background: #468B97;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+    color: black;
+    font-size: large;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color:#F3AA60;
+
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h4{
+    color: black ;
+    letter-spacing: 5px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.detel h1 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #F3AA60;
+}
+
+.detel h3 {
+  color: #000000;
+  line-height: 22px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.about{
+  width: 100%;
+  padding: 90px 0;
+  background-color: #468B97;
+}
+
+.about img{
+  height: auto;
+  width: 300px;
+  padding: 270px 0;
+}
+
+.main{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+} 
+
+.about-text{
+  width:550px ;
+}
+
+.about-text h2{
+  color: rgb(16, 15, 15);
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(0, 0, 0) ;
+}
+
+.about-text h5{
+  color: rgb(11, 11, 11);
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p{
+  color: rgb(18, 18, 18);
+  letter-spacing: 1px;
+  line-height: 21px;
+}
+
+.skill{
+  width: 100%;
+  padding: 10px ;
+}
+
+.title h2{
+  color: black;
+  font-size: 50px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.card{
+  height: 320px;
+  width: 260px;
+  padding: 20px 35px;
+  background: #2a2e2f;
+  border-radius: 20px;
+  margin: 35px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i{
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  color: #F3AA60 ;
+}
+
+h5{
+  color: #000000;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pra p{
+  color:black ;
+  font-size: 13px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.contact .row{
+  display: flex;
+  background:var(--black);
+  flex-wrap: wrap;
+  gap:1rem;
+}
+
+.contact .row form{
+  flex:1 1 45rem;
+  padding:100px;
+  align-items: center;
+  text-align: center;
+}
+
+.contact .row form h3{
+  text-transform: uppercase;
+  text-align:left;
+  font-size: 3.5rem;
+  color:#111010;
+}
+
+.contact .row form .inputBox{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background:var(--bg);
+  border:var(--border);
+}
+
+.contact .row form .inputBox span{
+  color:#222020;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+  width: 50%;
+  padding:2rem;
+  font-size: 1.7rem;
+  color:#fff;
+  text-transform: none;
+  background:none;
+}
+
+.footer{
+  background:var(--black);
+  text-align: center;
+}
+
+.footer .share{
+  padding:1rem 0;
+}
+
+.footer .share a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color:#fff;
+  border:var(--border);
+  margin:.3rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover{
+  background-color: var(--main-color);
+}
+
+.footer .credit{
+  font-size: 2rem;
+  color:#fff;
+  font-weight: lighter;
+  padding:1.5rem;
+}
+
+.footer .credit span{
+  color:var(--main-color);
+}
+
+
+
+
